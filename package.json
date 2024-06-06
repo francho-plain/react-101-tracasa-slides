@@ -1,0 +1,20 @@
+{
+  "name": "react-101-tracasa-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "marp -s .",
+    "lint": "markdownlint *.md",
+    "format": "markdownlint --fix *.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0"
+  },
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0",
+    "@marp-team/marp-core": "^3.9.0"
+  }
+}
